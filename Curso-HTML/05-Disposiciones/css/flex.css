@@ -4,7 +4,7 @@
     background-color: yellow;
     height: 300px;
     justify-content: space-around; /*lo distriuye segun el tipo que escojamos y se va redimencionando el contenido según vayamos ajustando la página web*/
-    align-items: center; /*si los cuadros no tuvieran altura, lo redimenciona a los extremos del contenedor*/
+    align-items: flex-end; /*si los cuadros no tuvieran altura, lo redimenciona a los extremos del contenedor*/
     /*flex-wrap: nowrap; redimenciona en función al tamaño de la pantalla*/
 }
 
