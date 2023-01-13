@@ -1,0 +1,25 @@
+.div-1, .div-2{
+    background-color: red;
+    /*display: inline; POR DEFECTO - div tiene display block*/
+}
+
+.span-1 {       
+    background-color: cadetblue;
+    /*height: 50px; /*esta altura no varia por ser span*/
+    float: right;
+    /*display:inline-block; /*=>la altura cambiará si le cambio el display*/
+    /*display: inline; POR DEFECTO - span tiene display inline*/
+}
+
+.span-2 {       
+    background-color: cadetblue;
+    /*height: 100px; */
+    float: left;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    /*display: inline-block*/
+}
