@@ -1,0 +1,41 @@
+.contenedor-hidden {
+    background-color: darkkhaki;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: hidden; /*todo lo que sobresalga se oculte y no tengo manera de acceder a esa información*/
+}
+.contenedor-scroll {
+    margin: 10px 0px;
+    background-color: darkkhaki;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: scroll; /*todo lo que sobresalga se puede ver mediante un scroll*/
+}
+.contenedor-visible {
+    margin: 10px 0px;
+    background-color: darkkhaki;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: visible; /*aparece por defecto*/
+}
+.contenedor-auto {
+    margin: 10px 0px;
+    background-color: darkkhaki;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: auto; /*aparece por defecto*/
+}
+
+.contenedor-scroll-x {
+    margin: 10px 0px;
+    background-color: darkkhaki;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow-x: hidden;
+    overflow-y: scroll; /*aparece igual que automatico, oculta scroll en x y sólo se muestra en el eje y*/
+}
