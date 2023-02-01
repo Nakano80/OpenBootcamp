@@ -13,9 +13,8 @@
 
 .galeria {
     display: flex; /*las imagenes se homogenizan*/
-    flex-wrap: wrap; /*lo encuadra*/
+    flex-wrap: wrap; /*lo encuadra ---- OJO flex-wrap no fuciona sin display:flex*/
     gap: 10px; /*pone espacio entre las imagenes*/
-
 }
 
 .imagen-galeria {
