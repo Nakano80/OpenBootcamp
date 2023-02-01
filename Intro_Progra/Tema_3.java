@@ -1,8 +1,9 @@
 public class Tema_3 {
     public static void main(String[] args) {
-        suma(4,15,6);
+        suma(4,15,16);
 
         Coche miCoche = new Coche();
+        miCoche.sumarPuertas();
         miCoche.sumarPuertas();
         miCoche.sumarPuertas();
 
