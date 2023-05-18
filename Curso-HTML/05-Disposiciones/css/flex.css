@@ -1,29 +1,28 @@
 .flex {
-    display: flex;         /*Distribye el contenido de manera vertical*/
-    flex-direction: column; /*cambia la dirección*/
-    background-color: yellow;
-    height: 300px;
-    justify-content: space-around; /*lo distriuye segun el tipo que escojamos y se va redimencionando el contenido según vayamos ajustando la página web*/
-    align-items: flex-end; /*si los cuadros no tuvieran altura, lo redimenciona a los extremos del contenedor*/
-    /*flex-wrap: nowrap; redimenciona en función al tamaño de la pantalla*/
+  display: flex; /*Distribye el contenido de manera vertical*/
+  flex-direction: column; /*cambia la dirección*/
+  background-color: yellow;
+  height: 300px;
+  justify-content: space-around; /*lo distriuye segun el tipo que escojamos y se va redimencionando el contenido según vayamos ajustando la página web -- ojo el posicionamieno STAR es una posición por defecto*/
+  align-items: flex-end; /*si los cuadros no tuvieran altura, lo redimenciona a los extremos del contenedor*/
+  /*flex-wrap: nowrap; redimenciona en función al tamaño de la pantalla*/
 }
 
 .contenido-1 {
-    background-color: white;
-    /*height: 200px;*/
-    width: 100px;
-    border: 1px solid blue;
+  background-color: white;
+  /*height: 200px;*/
+  width: 100px;
+  border: 1px solid blue;
 }
 .contenido-2 {
-    background-color: white;
-    /*height: 200px;*/
-    width: 100px;
-    border: 1px solid blue;
+  background-color: white;
+  /*height: 200px;*/
+  width: 100px;
+  border: 1px solid blue;
 }
 .contenido-3 {
-    background-color: pink;
-    /*height: 200px;*/
-    width: 100px;
-    border: 1px solid blue;
+  background-color: pink;
+  /*height: 200px;*/
+  width: 100px;
+  border: 1px solid blue;
 }
-

@@ -1,27 +1,28 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0; /*pading y margin 0, nos elimina el espacio que tiene por defecto en la pantalla*/
+  margin: 0;
 }
+
 .imagen-principal {
-    width: 100vw;
-    opacity: 0.3; /* Grado de transparencia, entre 0-1 (0% y 100%)*/
+  width: 100vw; /*vw --> significa viewport width quiere decir que si le ponemos 100% ocupará todo el tamaño de la pantalla*/
+  opacity: 0.3; /* Grado de transparencia, entre 0-1 (0% y 100%)*/
 }
 
 .imagen-principal:hover {
-    opacity: 1;  /*hover: cuando se pasa por encima el mouse se activa, el grado de opacidad*/
+  opacity: 1; /*hover: cuando se pasa por encima el mouse se activa, el grado de opacidad*/
 }
 
-.galeria {
-    display: flex; /*las imagenes se homogenizan*/
-    flex-wrap: wrap; /*lo encuadra ---- OJO flex-wrap no fuciona sin display:flex*/
-    gap: 10px; /*pone espacio entre las imagenes*/
+.galeria{
+  display: flex; /*las imagenes se homogenizan*/
+  flex-wrap: wrap; /*lo encuadra ---- OJO flex-wrap no fuciona sin display:flex*/
+  gap: 10px; /*pone espacio entre las imagenes*/
 }
 
 .imagen-galeria {
-    width: 150px;
+  width: 150px;
 }
 
 .imagen-galeria:hover {
-    opacity: 0.3;
-    cursor: pointer;  /*pone la manito cuando se pasa con el mouse*/
+  opacity: 0.3;
+  cursor: pointer; /*pone la manito cuando se pasa con el mouse*/
 }

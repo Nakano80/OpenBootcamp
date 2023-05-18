@@ -1,21 +1,27 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
 html {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 .video {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover; /*se rellena en toda la pantalla sin que se comprima ni se desborde*/
-    position: fixed; /*Lo fija en la pantalla */
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; /*se rellena en toda la pantalla sin que se comprima ni se desborde*/
+  position: fixed; /*Lo fija en la pantalla */
 }
 
 .header {
-    position: relative; /*lo envía adelante CREO*/
-    text-align: center;
+  height: 100vh;
+  position: relative; /*lo envía adelante CREO*/
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }

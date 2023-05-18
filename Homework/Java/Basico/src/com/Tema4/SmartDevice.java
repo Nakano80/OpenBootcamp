@@ -21,6 +21,10 @@ public class SmartDevice {
 class SmartPhone extends SmartDevice{
     int precio;
 
+    public SmartPhone(){
+        super();
+    }
+
     public SmartPhone(String marca, String modelo, String sistOp, Boolean linterna, int precio) {
         super(marca, modelo, sistOp, linterna);
         this.precio = precio;
@@ -29,8 +33,10 @@ class SmartPhone extends SmartDevice{
 
 class Smartwatch extends SmartPhone{
     String color;
-
-    public Smartwatch(String marca, String modelo, String sistOp, Boolean linterna, int precio, String color) {
+    public Smartwatch(){
+        super();
+    }
+   public Smartwatch(String marca, String modelo, String sistOp, Boolean linterna, int precio, String color) {
         super(marca, modelo, sistOp, linterna, precio);
         this.color=color;
     }

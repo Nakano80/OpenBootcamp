@@ -1,39 +1,38 @@
 /*Estilos para colores*/
-.colores{
-    color: red;
+.colores {
+  color: red;
 }
 
 /*Fondos externos*/
-.fondo{
-    /*background-color: blueviolet;*/
-    background-image:url(https://www.encompasscorporation.com/wp-content/uploads/2015/09/example-background.jpg);
-    background-position: right bottom;
+.fondo {
+  /*background-color: blueviolet;*/
+  background-image: url(https://www.encompasscorporation.com/wp-content/uploads/2015/09/example-background.jpg);
+  background-position: right bottom;
 }
 
 /*Fondos internos*/
-.fondo-interno{
-    /*background-color: blueviolet;*/
-    background-image:url(./fondos/triangle_background-9df4fa2e10f0e294779511e99083c2bc.jpg);
-    background-position: center center;
+.fondo-interno {
+  /*background-color: blueviolet;*/
+  background-image: url(./fondos/triangle_background-9df4fa2e10f0e294779511e99083c2bc.jpg);
+  background-position: center center;
 }
 /*Tamaños*/
 .ancho {
-    background-color: #BCE784;
-    width: 500px;    
+  background-color: #bce784;
+  width: 500px;
 }
 
 .alto {
-    background-color: brown;
-    height: 50px;
+  background-color: brown;
+  height: 50px;
 }
 
 .tarjeta {
-    border-style: solid;
-    border-color: rgb(150,150 ,150);
-    border-width: 1px;
-    /*border-top: none;*/
-    padding: 10px 20px;
-    /*padding: 10px 20px 30px 40px;*/
-    margin: 10px;
-    
+  border-style: solid;
+  border-color: rgb(150, 150, 150);
+  border-width: 1px;
+  /*border-top: none;*/
+  padding: 10px 20px;
+  /*padding: 10px 20px 30px 40px;*/
+  margin: 10px;
 }
