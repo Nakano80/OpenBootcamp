@@ -14,7 +14,7 @@
 
 .galeria{
   display: flex; /*las imagenes se homogenizan*/
-  flex-wrap: wrap; /*lo encuadra ---- OJO flex-wrap no fuciona sin display:flex*/
+  flex-wrap: wrap; /*lo encuadra ---- OJO flex-wrap no fuciona sin display:flex ===> Adicional a ello es que si los elementos no caben wrap los va a disct*/
   gap: 10px; /*pone espacio entre las imagenes*/
 }
 

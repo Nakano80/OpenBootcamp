@@ -1,0 +1,80 @@
+.input {
+  /*outline: none; ===> desaparece la línea por defecto que aparece cuando posiciones el cursor en el formulario*/
+  width: 100%;
+  padding: 5px 10px;
+  border: 2px solid rgb(0, 255, 55);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.input[type="password"] {
+  /*con los corchetes se puede acceder a los selectores mediante sus atributos*/
+  color: red;
+}
+
+.input[type="password"]::placeholder {
+    /*con los corchetes se puede acceder a los selectores mediante sus atributos*/
+    color: rgb(255, 0, 157);
+    font-weight: 900; /*peso (grosor) de la letra*/
+  }
+
+.input-moderno {
+  border: none;
+  border-bottom: 1px solid slateblue;
+  outline: none; /*desaparece la línea negra por defecto*/
+  padding: 5px;
+  color: slateblue;
+}
+
+.input-moderno:focus {
+  /*al momento de seleccionar el formulario - el borde cambia de color*/
+  border-bottom: 1px solid rgb(224, 37, 37);
+}
+
+.input-moderno::placeholder {
+  /*accede al diseño del elemento que aparece como referencia del formulario*/
+  color: blue;
+}
+
+.input#texto::placeholder {
+  /*OJO PARA QUE FUNCIONE LOS ESPECIFICIDAD DE LOS SELECTORES DEBEN ESTAR JUNTOS SIN ESPACIOS*/
+  color: rgb(255, 0, 85);
+}
+
+.input-background {
+  background-color: aquamarine;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: rgb(155, 60, 60);
+  box-shadow: 0 0 10px #660541; /*desplazamiento en x,y,difuminación, color de las sombras*/
+}
+
+.input-background::placeholder {
+  color: #ccc;
+  
+}
+
+.input-search {
+    padding: 10px;
+    padding-left: 45px; /*el texto de referencia le da un espaciado*/
+    /*border: none;*/
+    margin: 10px; /*le da espacio a los margenes*/
+    border-radius: 8px;
+    background-color: #fff;
+    background-image: url('../img/icons8-search-64.png');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 5px;
+}
+
+textarea {
+    /*resize: both; permite redireccionar en X y Y*/
+    resize: horizontal; /*solo lo redirecciona en X*/
+}
+
+select{
+    width: 100%;
+    padding: 15px;
+    background-color: #ccc;
+}

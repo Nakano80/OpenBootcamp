@@ -1,0 +1,24 @@
+h1#h1-id.h1-clase { /*referencias a varios id se hace colocando este elemento \ */
+  color: blue;
+}
+
+.h1-clase {
+  color: green;
+}
+
+h1 {
+    color: blue !important;
+}
+
+p {
+  color: red;
+}
+
+/* NOTAS
+
+(1,0,0) superior
+(0,1,0)
+(0,0,1)
+(0,0,0) inferior
+
+cuarto nivel de especificidad, los estilos que se definen en linea dentro de la eiqueta con un atributo nos proporciona un nivel superior de especificidad, pero además existe un estilo superior a todos los demas y es el que se le coloca la etiqueta !important--> viene a ser el quintto nivel de especificidad, sin embargo se debe evittar a toda costa este estilo de valor especial, ya que si te olvidas de la etiqueta usaras otro important y así sucecivamente, mejor práctica evitar el !important*/

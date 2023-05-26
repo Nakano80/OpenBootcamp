@@ -1,0 +1,13 @@
+.contenedor p{
+    color: green;
+}
+
+.contenedor #boton-contenedor{
+    background-color: red;
+    color: aliceblue;
+}
+
+ul li a{
+    color: blueviolet;
+}
+

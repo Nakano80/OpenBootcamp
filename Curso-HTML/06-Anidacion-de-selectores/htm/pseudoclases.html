@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo-Clases</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .hover {
+        width: 300px;
+        height: 200px;
+        background-color: bisque;
+      }
+
+      .hover:hover {
+        /*Se activa en cuanto el ratón pasa por encima */
+        background-color: burlywood;
+      }
+
+      .listado {
+        padding: 5px;
+        background-color: aquamarine;
+      }
+
+      .listado p:first-child {
+        /*first-child --> afecta al primer elemento osea el hijo*/
+        color: red;
+        background-color: yellow;
+      }
+
+      a:link{ /*link no visitado todavía*/
+        color:deeppink;
+      }
+
+      a:visited{
+        color: crimson;
+      }
+
+      a:hover{
+        color:pink;
+      }
+
+      a:active{
+        color: greenyellow;
+      }
+
+      /*OJO: para que funcione estos efectos deberán mantener el siguiente orden, porque sino los estilos se pisarán entre sí*/
+    </style>
+  </head>
+  
+  <body>
+    <div class="hover">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex ipsum
+        maiores possimus dolorum, recusandae, explicabo, officiis consequatur
+        repudiandae impedit aspernatur.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex ipsum
+        maiores possimus dolorum, recusandae, explicabo, officiis consequatur
+        repudiandae impedit aspernatur.
+      </p>
+    </div>
+
+    <div class="listado">
+      <p>Párrafo 1</p>
+      <p>Párrafo 2</p>
+      <p>Párrafo 3</p>
+      <p>Párrafo 4</p>
+    </div>
+
+    <div class="enlaces">
+      <a href="http://google.com" target="_blank">Enlace a Google</a> 
+      <a href="http://marca.com" target="_blank">Enlace a Marca</a> 
+    </div>
+  </body>
+</html>

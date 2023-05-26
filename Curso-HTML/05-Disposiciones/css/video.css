@@ -16,12 +16,12 @@ html {
 }
 
 .header {
-  height: 100vh;
+  height: 100vh; /*OJO: funciona diferente con 100% ello es cuando se uitliza contenedores*/
   position: relative; /*lo envía adelante CREO*/
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  justify-content: center;
+  display: flex; /*Me coloca un elemento a lado de otro*/
+  flex-direction: column; /*Un elemento queda arriba del otro*/
+  gap: 10px;  /*Le da espaciado a los elementos*/
+  justify-content: center; /*Todo el espacio que tenemos (100vh = "Toda la pantalla en este caso") queremos dividirlo */
   align-items: center;
 }
